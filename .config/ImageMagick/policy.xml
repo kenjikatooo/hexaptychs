@@ -1,7 +1,6 @@
 <policymap>
-  <policy domain="coder" rights="none" pattern="EPHEMERAL" />
-  <policy domain="coder" rights="none" pattern="URL" />
-  <policy domain="coder" rights="none" pattern="HTTPS" />
-  <policy domain="coder" rights="none" pattern="MVG" />
-  <policy domain="coder" rights="none" pattern="MSL" />
+  <policy domain="coder" rights="all" pattern="PNG" />
+  <policy domain="coder" rights="all" pattern="JPEG" />
+  <policy domain="coder" rights="all" pattern="GIF" />
+  <policy domain="coder" rights="all" pattern="LABEL" />
 </policymap>
