@@ -20,7 +20,7 @@ This bot requires the latest and greatest ImageMagick (6.9.x) which is a few rev
 
 ```console
 $ heroku buildpack:add https://github.com/heroku/heroku-buildpack-nodejs
-$ heroku buildpack:add https://github.com/airhadoken/heroku-buildpack-imagemagick
+$ heroku buildpack:add https://github.com/kenjikatooo/heroku-buildpack-imagemagick
 ```
 
 The non-native buildpack has a configuration requirement; it doesn't know where to find the configuration XML files, so set that as a shell var.
